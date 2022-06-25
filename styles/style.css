@@ -46,6 +46,8 @@ li a{
 }
 
 .button-contact-us{
+    cursor: pointer;
+    color: #FFFFFF;
     border: none;
     border-radius: 5px;
     padding: 20px 34px;
@@ -255,10 +257,35 @@ margin-top: 30px;
     border-radius: 5px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1600px) {
+    .header-items{
+        margin-left: 240px;
+    }
+
+    ul{
+        margin-left: 292px;
+    }
+    
+    #logo{
+        width: 137px;
+    }
+
+    li a{
+        font-size: 16px;
+    }
+        
+    li{
+        margin-right: 97px;
+    }
+
+    .subtitle{
+        font-size: 100px;
+    }
+
     main {
       margin-top: 1015px;
     }
+
     footer{
         margin-top: 3600px;
     }
@@ -271,7 +298,6 @@ margin-top: 30px;
     footer{
         margin-top: 3900px;
     }
-    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -280,5 +306,30 @@ margin-top: 30px;
     }
     footer{
         margin-top: 4400px;
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    #logo{
+        width: 180px;
+    }
+    
+    .header-items{
+        margin-left: 40px;
+    }
+    
+    li{
+        width: 45px;
+    }
+
+    li a{
+        font-size: 12px;
+    }
+
+    .button-contact-us{
+        padding: 20px 38px;
+        font-size: 12px;
+        width: 154px;
     }
 }
